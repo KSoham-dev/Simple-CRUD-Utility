@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request, redirect
-from enum import unique
 from models import *
 app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///database.sqlite3"

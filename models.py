@@ -1,7 +1,4 @@
-from enum import unique
 from flask_sqlalchemy import SQLAlchemy as sq
-from sqlalchemy import PrimaryKeyConstraint
-
 db = sq()
 
 class student(db.Model):
